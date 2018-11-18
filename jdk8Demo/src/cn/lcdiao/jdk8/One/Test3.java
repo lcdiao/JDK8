@@ -1,8 +1,9 @@
-package cn.lcdiao.jdk8;
+package cn.lcdiao.jdk8.One;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
 
 /**
  * Created by lcd on 2018/11/18.
@@ -31,7 +32,10 @@ public class Test3 {
         //采用Stream的方式
         //list.stream() .map(s->s.toUpperCase()).forEach(s->{list2.add(s);System.out.println(s);});
         list.stream().map(String::toUpperCase).forEach(s-> System.out.println(s));
+        System.out.println("--------------------------------");
 
+        Function<String,String> function = String::toUpperCase;
+        System.out.println(function.getClass().getInterfaces()[0]); //interface java.util.function.Function
 
 
     }
