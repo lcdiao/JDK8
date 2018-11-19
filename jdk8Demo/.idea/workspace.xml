@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac139192-d96b-42b9-8c43-7ea6c8ff516e" name="Default" comment="" />
+    <list default="true" id="ac139192-d96b-42b9-8c43-7ea6c8ff516e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/lcdiao/jdk8/Two/PredicateTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,29 +30,30 @@
     <session id="1990340217">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1704" />
+          <entry key="java" value="2193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1704" />
+          <entry key="JAVA" value="2193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="12" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="14" />
         </counts>
       </usages-collector>
     </session>
@@ -69,11 +73,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/One/Test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="178">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/Two/PredicateTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1876#1877#0" expanded="true" />
+                <element signature="e#1907#1908#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/Two/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-end-line="37" />
+            <state relative-caret-position="627">
+              <caret line="36" column="45" selection-start-line="36" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/One/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+            <state relative-caret-position="380">
+              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/Two/PredicateTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -145,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/cn/lcdiao/jdk8/One/Test2.java" />
         <option value="$PROJECT_DIR$/src/cn/lcdiao/jdk8/Two/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/cn/lcdiao/jdk8/Two/PredicateTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/lcdiao/jdk8/Two/PredicateTest2.java" />
       </list>
     </option>
   </component>
@@ -159,17 +178,21 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="397" />
-    <option name="y" value="281" />
+    <option name="x" value="361" />
+    <option name="y" value="337" />
     <option name="width" value="956" />
     <option name="height" value="438" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,28 +224,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lcdiao" type="462c0819:PsiDirectoryNode" />
               <item name="jdk8" type="462c0819:PsiDirectoryNode" />
-              <item name="One" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk8Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk8Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lcdiao" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
               <item name="Two" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542557071077" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542639230705" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../project-manage-system-be/pm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -247,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PredicateTest">
+  <component name="RunManager" selected="Application.PredicateTest2">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -337,13 +350,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lcdiao.jdk8.One.StringComparator" />
+    <configuration name="PredicateTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lcdiao.jdk8.Two.PredicateTest2" />
       <module name="jdk8Demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lcdiao.jdk8.One.*" />
+          <option name="PATTERN" value="cn.lcdiao.jdk8.Two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -459,19 +472,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.StringComparator" />
       <item itemvalue="Application.FunctionTest" />
       <item itemvalue="Application.FunctionTest2" />
       <item itemvalue="Application.PersonTest" />
       <item itemvalue="Application.PredicateTest" />
+      <item itemvalue="Application.PredicateTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PredicateTest2" />
         <item itemvalue="Application.PredicateTest" />
         <item itemvalue="Application.PersonTest" />
         <item itemvalue="Application.FunctionTest2" />
         <item itemvalue="Application.FunctionTest" />
-        <item itemvalue="Application.StringComparator" />
       </list>
     </recent_temporary>
   </component>
@@ -489,16 +502,17 @@
       <workItem from="1542342932646" duration="679000" />
       <workItem from="1542511158576" duration="5908000" />
       <workItem from="1542544331620" duration="8603000" />
+      <workItem from="1542636699393" duration="3117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24263000" />
+    <option name="totallyTimeSpent" value="27380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1785174" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18078668" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Nl-Palette" order="3" />
@@ -506,10 +520,9 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="7" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.17213115" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27213115" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39180326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -518,6 +531,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -636,9 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,13 +660,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/One.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/One.java" />
     <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/One/FunctionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -709,8 +714,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/Two/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-end-line="37" />
+        <state relative-caret-position="627">
+          <caret line="36" column="45" selection-start-line="36" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/One/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -720,24 +735,33 @@
     <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/Two/PredicateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/One/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/One/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="178">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lcdiao/jdk8/Two/PredicateTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1876#1877#0" expanded="true" />
+            <element signature="e#1907#1908#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
