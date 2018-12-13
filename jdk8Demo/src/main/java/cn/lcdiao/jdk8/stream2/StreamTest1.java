@@ -18,7 +18,10 @@ public class StreamTest1 {
         //3.Collector是一个接口,它是一个可变的汇聚操作，将输入元素累积到一个可变的结果容器中；
         //  它会在所有元素都处理完毕后，将累积的接口转换为一个最终的表示(这是一个可选操作).它支持串行与并行(多线程去执行)两种方式执行
         //4.Collectors本身提供了关于Collector的常见汇聚实现，Collectors本身实际上是一个工厂
-        //5.
+        //5.为了确保串行与并行操作结果的等价性，Collectorr函数需要满足两个条件:identity(同一性)与associativity(综合性)
+        //6. a == combiner.apply(a,supplier.get())
+        //7.
+        //8.
 
         Student student1 = new Student("zhangsan",80);
         Student student2 = new Student("lisi",90);
